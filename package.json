@@ -1,0 +1,42 @@
+{
+  "name": "rest-client",
+  "version": "0.1.0",
+  "description": "Simple HTTP and Rest client using axios",
+  "main": "lib/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build-react-component",
+    "clean": "nwb clean-module && nwb clean-demo",
+    "start": "start-storybook -p 9001 -c .storybook",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server"
+  },
+  "dependencies": {
+    "axios-retry": "^3.0.2",
+    "string-template": "^1.0.0"
+  },
+  "peerDependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.4.3",
+    "babel-core": "^6.26.3",
+    "cross-env": "5.1.5",
+    "nwb": "0.21.x",
+    "react": "16.3.1",
+    "react-dom": "16.3.1"
+  },
+  "author": "Kevin Koh",
+  "homepage": "",
+  "license": "MIT",
+  "repository": "https://github.com/kevinkoh89/rest-client.git",
+  "keywords": [
+    "react-component"
+  ]
+}
