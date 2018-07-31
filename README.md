@@ -55,3 +55,9 @@ add proxy in package.json
 ````
 
 testing using fake api provided by https://reqres.in
+
+
+##### To see the demo
+````
+npm start storybook
+````
